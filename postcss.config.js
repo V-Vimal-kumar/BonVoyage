@@ -1,7 +1,6 @@
-import tailwindcss from "@tailwindcss/postcss";
-
-export default {
-  plugins: [
-    tailwindcss(),
-  ],
-};
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
